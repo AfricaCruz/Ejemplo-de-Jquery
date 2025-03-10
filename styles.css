@@ -1,19 +1,6 @@
 
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplo jQuery</title>
-   
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
-    <style>
         body {
-            font-family: "Dancing Script",cursive;
+            font-family: "Dancing Script", cursive;
             text-align: center;
             background-color: #fde2e4;
             display: flex;
@@ -24,6 +11,7 @@
             margin: 0;
         }
         p {
+            font-family: "Dancing Script", cursive;
             font-size: 18px;
             background-color: #f8edeb;
             padding: 20px;
@@ -31,7 +19,7 @@
             width: 60%;
         }
         button {
-            font-family: 'Roboto', sans-serif;
+            font-family: "Dancing Script", cursive;
             font-size: 16px;
             padding: 10px 20px;
             margin: 10px;
