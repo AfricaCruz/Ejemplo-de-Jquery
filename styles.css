@@ -1,16 +1,43 @@
 
-body {
-    font-family: 'Roboto', cursive;
-    text-align: center;
-    margin-top: 50px;
-}
-p {
-    font-size: 18px;
-}
-button {
-    font-family: 'Roboto', cursive;
-    font-size: 16px;
-    padding: 10px 20px;
-    margin: 10px;
-    cursor: pointer;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo jQuery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            background-color: #fde2e4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        p {
+            font-size: 18px;
+            background-color: #f8edeb;
+            padding: 20px;
+            border-radius: 10px;
+            width: 60%;
+        }
+        button {
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #ffcad4;
+            color: #6d6875;
+        }
+        button:hover {
+            background-color: #fec5bb;
+        }
