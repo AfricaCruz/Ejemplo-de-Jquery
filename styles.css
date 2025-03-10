@@ -1,6 +1,6 @@
 
 body {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', cursive;
     text-align: center;
     margin-top: 50px;
 }
@@ -8,7 +8,7 @@ p {
     font-size: 18px;
 }
 button {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', cursive;
     font-size: 16px;
     padding: 10px 20px;
     margin: 10px;
